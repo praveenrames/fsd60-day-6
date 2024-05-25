@@ -17,7 +17,7 @@ class Movie {
  let movie5 = new Movie("96","Seven Screen Studio","PG");
  let movie6 = new Movie("Vishwaroopam II","Raaj Kamal Films International","R");
 
- let movieArray = [movie1,movie2,movie3,movie4,movie5,movie6];
- const getPGRating = Movie.getPG(movieArray);
- console.log(movieArray);
+let movieArray = [movie1,movie2,movie3,movie4,movie5,movie6];
+let movieGetPG = Movie.getPG(movieArray);
+console.log(movieGetPG);
  
